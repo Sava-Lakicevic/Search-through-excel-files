@@ -9,7 +9,7 @@ import re
 def flatten_list(l):
     return [item for sublist in l for item in sublist]
 
-#uses glob to join path with all files ending with the .xlsx extention
+# uses glob to join path with all files ending with the .xlsx extention
 def get_all_excel_files():
     # get current working directory
     path = os.getcwd()
